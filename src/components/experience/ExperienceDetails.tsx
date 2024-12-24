@@ -1,6 +1,6 @@
-import { motion, AnimatePresence } from 'framer-motion';
-import { X } from 'lucide-react';
-import { SkillBadge } from '../skills/SkillBadge';
+import { motion, AnimatePresence } from "framer-motion";
+import { X } from "lucide-react";
+import { SkillBadge } from "../skills/SkillBadge";
 
 interface ExperienceDetailsProps {
   isOpen: boolean;
@@ -15,7 +15,11 @@ interface ExperienceDetailsProps {
   };
 }
 
-export function ExperienceDetails({ isOpen, onClose, experience }: ExperienceDetailsProps) {
+export function ExperienceDetails({
+  isOpen,
+  onClose,
+  experience,
+}: ExperienceDetailsProps) {
   return (
     <AnimatePresence>
       {isOpen && (
@@ -31,7 +35,7 @@ export function ExperienceDetails({ isOpen, onClose, experience }: ExperienceDet
             initial={{ opacity: 0, y: 100 }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: 100 }}
-            className="fixed inset-x-4 bottom-4 top-20 md:inset-40 bg-white dark:bg-gray-800 rounded-xl p-6 z-50 overflow-y-auto"
+            className="fixed inset-x-4 bottom-4 top-20 md:inset-20 bg-white dark:bg-gray-800 rounded-xl p-6 z-50 overflow-y-auto"
           >
             <button
               onClick={onClose}
@@ -39,20 +43,28 @@ export function ExperienceDetails({ isOpen, onClose, experience }: ExperienceDet
             >
               <X size={24} />
             </button>
-            
+
             <div className="mb-6">
-              <h3 className="text-2xl font-bold text-blue-600 dark:text-blue-400">{experience.title}</h3>
+              <h3 className="text-2xl font-bold text-blue-600 dark:text-blue-400">
+                {experience.title}
+              </h3>
               <p className="text-lg font-semibold mt-2">{experience.company}</p>
-              <p className="text-gray-600 dark:text-gray-400">{experience.period}</p>
+              <p className="text-gray-600 dark:text-gray-400">
+                {experience.period}
+              </p>
             </div>
 
             <div className="mb-6">
               <h4 className="text-lg font-semibold mb-2">Description</h4>
-              <p className="text-gray-600 dark:text-gray-400">{experience.description}</p>
+              <p className="text-gray-600 dark:text-gray-400">
+                {experience.description}
+              </p>
             </div>
 
             <div className="mb-6">
-              <h4 className="text-lg font-semibold mb-2">Key Responsibilities</h4>
+              <h4 className="text-lg font-semibold mb-2">
+                Key Responsibilities
+              </h4>
               <ul className="list-disc list-inside space-y-2 text-gray-600 dark:text-gray-400">
                 {experience.responsibilities.map((responsibility, index) => (
                   <li key={index}>{responsibility}</li>
