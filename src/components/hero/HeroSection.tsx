@@ -1,5 +1,6 @@
 import { motion, useScroll, useTransform } from "framer-motion";
-import { Github, Linkedin, Mail, FileText } from "lucide-react";
+import { Linkedin, Mail, FileText } from "lucide-react";
+import { LuGithub } from "react-icons/lu";
 import { TypewriterText } from "./TypewriterText";
 import heroImage from "../../assets/header.png";
 
@@ -54,19 +55,21 @@ export function HeroSection() {
         >
           <div className="flex justify-center gap-6">
             <a
-              href="#"
+              href="https://github.com/rishvant"
               className="text-white hover:text-blue-400 transition-colors"
+              target="_blank"
             >
-              <Github size={28} />
+              <LuGithub size={28} />
             </a>
             <a
-              href="#"
+              href="https://www.linkedin.com/in/rishvant-singh"
               className="text-white hover:text-blue-400 transition-colors"
+              target="_blank"
             >
               <Linkedin size={28} />
             </a>
             <a
-              href="#"
+              href="mailto:rishvantsinghpundir@gmail.com"
               className="text-white hover:text-blue-400 transition-colors"
             >
               <Mail size={28} />

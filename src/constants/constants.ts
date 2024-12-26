@@ -81,3 +81,38 @@ export const education = [
     logo: sgrr,
   },
 ];
+
+export const skills = [
+  {
+    name: "React.js",
+    logo: "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg",
+  },
+  {
+    name: "Node.js",
+    logo: "https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg",
+  },
+  {
+    name: "TypeScript",
+    logo: "https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg",
+  },
+  {
+    name: "MongoDB",
+    logo: "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg",
+  },
+  {
+    name: "C++",
+    logo: "https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg",
+  },
+  {
+    name: "Redis",
+    logo: "https://raw.githubusercontent.com/devicons/devicon/master/icons/redis/redis-original.svg",
+  },
+  {
+    name: "Docker",
+    logo: "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg",
+  },
+  {
+    name: "AWS",
+    logo: "https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original.svg",
+  },
+];
