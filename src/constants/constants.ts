@@ -1,3 +1,4 @@
+import tradeShala from "../assets/trade-shala.png";
 import cipher from "../assets/cipher.png";
 import alumni from "../assets/alumni-connect.png";
 import fitfusionx from "../assets/fitfusionx.png";
@@ -5,6 +6,23 @@ import iiitu from "../assets/Iiit-una-logo.png";
 import sgrr from "../assets/sgrr.png";
 
 export const projects = [
+  {
+    title: "Trade Shala",
+    description:
+      "A stock market paper trading app with Upstox API, strategy marketplace, and personalized stock recommendations.",
+    link: "https://trade-shala.vercel.app",
+    image: tradeShala,
+    skills: [
+      "React.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "Node.js",
+      "Express.js",
+      "Websockets",
+      "MongoDB",
+      "Upstox API",
+    ],
+  },
   {
     title: "Cipher Safe Tests",
     description: "A secure examination system using Cryptography",
@@ -39,6 +57,30 @@ export const projects = [
 ];
 
 export const experiences = [
+  {
+    title: "Backend Developer Intern",
+    company: "Kartavya Technologies",
+    period: "Jan 2025 - Feb 2025",
+    description:
+      "Developed and optimized RESTful APIs for the Ophiz App, improving data accessibility and performance while ensuring scalable and efficient backend solutions.",
+    responsibilities: [
+      "Developed RESTful APIs for the Ophiz App used for report generation, improving data accessibility.",
+      "Optimized API response times through pagination, caching mechanisms (Redis), and database indexing, reducing latency by 40%.",
+      "Utilized MongoDB aggregation pipelines for complex data processing, resulting in a 30% improvement in query performance.",
+      "Worked with AWS services (EC2, S3) to manage cloud infrastructure, ensuring scalable and reliable deployment.",
+    ],
+    skills: [
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Redis",
+      "AWS (EC2, S3)",
+      "REST APIs",
+      "Database Optimization",
+      "Performance Optimization",
+      "Backend Development",
+    ],
+  },
   {
     title: "Full-Stack Developer Intern",
     company: "SnackBAE",
@@ -99,6 +141,10 @@ export const skills = [
     name: "MongoDB",
     logo: "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg",
   },
+  // {
+  //   name: "PostgreSQL",
+  //   logo: "https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg",
+  // },
   {
     name: "C++",
     logo: "https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg",
@@ -108,11 +154,11 @@ export const skills = [
     logo: "https://raw.githubusercontent.com/devicons/devicon/master/icons/redis/redis-original.svg",
   },
   {
-    name: "Docker",
-    logo: "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg",
+    name: "Tailwind CSS",
+    logo: "https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-original.svg",
   },
   {
     name: "AWS",
-    logo: "https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original.svg",
+    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg",
   },
 ];

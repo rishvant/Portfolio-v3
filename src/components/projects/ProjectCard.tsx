@@ -1,12 +1,14 @@
 import { motion } from "framer-motion";
 import { ExternalLink } from "lucide-react";
+import { FaGithub } from "react-icons/fa";
 import { MacbookFrame } from "./MacbookFrame";
 import { SkillBadge } from "../skills/SkillBadge";
 
 interface ProjectCardProps {
   title: string;
   description: string;
-  link: string;
+  link?: string;
+  github?: string;
   image: string;
   skills: string[];
 }
@@ -15,6 +17,7 @@ export function ProjectCard({
   title,
   description,
   link,
+  github,
   image,
   skills,
 }: ProjectCardProps) {
@@ -43,6 +46,14 @@ export function ProjectCard({
                   className="text-blue-400 hover:text-blue-300"
                 >
                   <ExternalLink size={20} />
+                </a>
+                <a
+                  href={github}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-gray-300 hover:text-gray-100 cursor-pointer"
+                >
+                  <FaGithub size={20} />
                 </a>
               </h3>
               <p className="mt-2 text-gray-200">{description}</p>
