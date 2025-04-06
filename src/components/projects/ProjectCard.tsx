@@ -36,8 +36,8 @@ export function ProjectCard({
         >
           <img src={image} alt={title} className="w-full h-full object-cover" />
           <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-            <div className="absolute bottom-0 left-0 right-0 p-6">
-              <h3 className="text-xl font-bold text-white flex items-center gap-2">
+            <div className="absolute bottom-0 left-0 right-0 p-4 sm:p-6">
+              <h3 className="text-[1rem] sm:text-xl font-bold text-white flex items-center gap-2">
                 {title}
                 <a
                   href={link}
@@ -56,7 +56,9 @@ export function ProjectCard({
                   <FaGithub size={20} />
                 </a>
               </h3>
-              <p className="mt-2 text-gray-200">{description}</p>
+              <p className="mt-2 text-gray-200 text-[0.8rem] sm:text-md">
+                {description}
+              </p>
               <div className="mt-4 flex flex-wrap gap-2">
                 {skills.map((skill) => (
                   <SkillBadge key={skill} name={skill} />

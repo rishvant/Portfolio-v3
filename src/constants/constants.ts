@@ -110,7 +110,7 @@ export const experiences = [
 export const education = [
   {
     school: "Indian Institute of Information Technology Una",
-    degree: "B.Tech",
+    degree: "Bachelor of Technology",
     period: "2022 - 2026",
     description: "Computer Science and Engineering",
     logo: iiitu,

@@ -76,7 +76,7 @@ export function HeroSection() {
             </a>
           </div>
           <motion.a
-            href="/resume.pdf"
+            href="https://drive.google.com/file/d/1UUAiIMiC2YoShv6iGI2Sex-87ghatvOj/view?usp=sharing"
             download
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}

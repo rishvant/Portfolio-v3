@@ -44,7 +44,7 @@ export function TimelineItem({ title, company, period, description, index, isLas
           className="p-6 bg-white dark:bg-gray-800 rounded-lg shadow-lg border border-gray-200 dark:border-gray-700 hover:shadow-xl transition-all duration-300 cursor-pointer"
           onClick={onClick}
         >
-          <div className="flex items-center justify-between mb-4">
+          <div className="flex flex-col sm:flex-row gap-1 sm:gap-0 items-start sm:items-center justify-between mb-4">
             <h3 className="text-xl font-bold text-blue-600 dark:text-blue-400">{title}</h3>
             <span className="px-3 py-1 text-sm rounded-full bg-blue-100 dark:bg-blue-900 text-blue-600 dark:text-blue-400">
               {period}
