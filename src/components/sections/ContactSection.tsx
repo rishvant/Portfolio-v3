@@ -46,8 +46,8 @@ export function ContactSection(): JSX.Element {
           className="relative"
         >
           {/* Decorative elements */}
-          <div className="absolute -top-12 -right-12 w-24 h-24 bg-blue-500/10 rounded-full blur-2xl" />
-          <div className="absolute -bottom-12 -left-12 w-32 h-32 bg-purple-500/10 rounded-full blur-2xl" />
+          <div className="absolute -top-12 sm:-right-12 w-24 h-24 bg-blue-500/10 rounded-full blur-2xl" />
+          <div className="absolute -bottom-12 sm:-left-12 w-32 h-32 bg-purple-500/10 rounded-full blur-2xl" />
 
           <div className="relative bg-white dark:bg-gray-900 p-8 md:p-10 rounded-3xl shadow-xl border border-gray-200/50 dark:border-gray-700/50 backdrop-blur-sm">
             <div>
