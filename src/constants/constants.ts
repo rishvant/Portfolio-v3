@@ -11,6 +11,7 @@ export const projects = [
     description:
       "A stock market paper trading app with Upstox API, strategy marketplace, and personalized stock recommendations.",
     link: "https://trade-shala.vercel.app",
+    github: "https://github.com/rishvant/Trade-Shala",
     image: tradeShala,
     skills: [
       "React.js",
@@ -27,6 +28,7 @@ export const projects = [
     title: "Cipher Safe Tests",
     description: "A secure examination system using Cryptography",
     link: "https://cipher-safe-tests.vercel.app",
+    github: "https://github.com/rishvant/Cipher-Safe-Tests",
     image: cipher,
     skills: [
       "React.js",
@@ -43,6 +45,7 @@ export const projects = [
     description:
       "A platform that connects alumni for networking and community engagement.",
     link: "https://iiitu-alumni-connect.vercel.app",
+    github: "https://github.com/rishvant/Alumni-Connect",
     image: alumni,
     skills: ["Node.js", "React.js", "MongoDB", "Express.js", "Bootstrap"],
   },
@@ -51,6 +54,7 @@ export const projects = [
     description:
       "An e-commerce platform with a virtual try-on feature for enhanced shopping.",
     link: "https://fit-fusionx.vercel.app",
+    github: "https://github.com/rishvant/FitFusionX",
     image: fitfusionx,
     skills: ["Node.js", "React.js", "MongoDB", "Express.js", "Tailwind CSS"],
   },
