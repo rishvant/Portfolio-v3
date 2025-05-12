@@ -5,6 +5,9 @@ import fitfusionx from "../assets/fitfusionx.png";
 import iiitu from "../assets/Iiit-una-logo.png";
 import sgrr from "../assets/sgrr.png";
 
+export const resumeLink =
+  "https://drive.google.com/file/d/1SAW8nHwpozZYf1XTe0nvzai2NF82VyLN/view?usp=sharing";
+
 export const projects = [
   {
     title: "Trade Shala",

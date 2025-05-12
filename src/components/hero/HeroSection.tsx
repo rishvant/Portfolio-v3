@@ -3,6 +3,7 @@ import { Linkedin, Mail, FileText } from "lucide-react";
 import { LuGithub } from "react-icons/lu";
 import { TypewriterText } from "./TypewriterText";
 import heroImage from "../../assets/header.png";
+import { resumeLink } from "../../constants/constants";
 
 const typingTexts = [
   "I am a Full Stack Developer",
@@ -76,7 +77,7 @@ export function HeroSection() {
             </a>
           </div>
           <motion.a
-            href="https://drive.google.com/file/d/1UUAiIMiC2YoShv6iGI2Sex-87ghatvOj/view?usp=sharing"
+            href={resumeLink}
             download
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
