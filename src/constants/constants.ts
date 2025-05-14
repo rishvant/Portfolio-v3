@@ -4,11 +4,28 @@ import alumni from "../assets/alumni-connect.png";
 import fitfusionx from "../assets/fitfusionx.png";
 import iiitu from "../assets/Iiit-una-logo.png";
 import sgrr from "../assets/sgrr.png";
+import saferoadsai from "../assets/saferoadsai.png";
 
 export const resumeLink =
   "https://drive.google.com/file/d/1SAW8nHwpozZYf1XTe0nvzai2NF82VyLN/view?usp=sharing";
 
 export const projects = [
+  {
+    title: "SafeRoadsAI",
+    description:
+      "AI-driven platform for real-time pothole detection, geolocation-based reporting, and centralized road issue management.",
+    github: "https://github.com/rishvant/SafeRoadsAI",
+    image: saferoadsai,
+    skills: [
+      "React Native",
+      "Expo",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Computer Vision",
+      "AI/ML",
+    ],
+  },
   {
     title: "Trade Shala",
     description:
@@ -126,7 +143,7 @@ export const education = [
     school: "S.G.R.R. Public School, CBSE",
     degree: "Class 12th",
     period: "2020 - 2021",
-    description: "PCM",
+    description: "Physics, Chemistry, Mathematics",
     logo: sgrr,
   },
 ];

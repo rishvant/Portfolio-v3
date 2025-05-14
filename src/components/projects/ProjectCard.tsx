@@ -39,22 +39,26 @@ export function ProjectCard({
             <div className="absolute bottom-0 left-0 right-0 p-4 sm:p-6">
               <h3 className="text-[1rem] sm:text-xl font-bold text-white flex items-center gap-2">
                 {title}
-                <a
-                  href={link}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-blue-400 hover:text-blue-300"
-                >
-                  <ExternalLink size={20} />
-                </a>
-                <a
-                  href={github}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-gray-300 hover:text-gray-100 cursor-pointer"
-                >
-                  <FaGithub size={20} />
-                </a>
+                {link && (
+                  <a
+                    href={link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:text-blue-300"
+                  >
+                    <ExternalLink size={20} />
+                  </a>
+                )}
+                {github && (
+                  <a
+                    href={github}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-gray-300 hover:text-gray-100 cursor-pointer"
+                  >
+                    <FaGithub size={20} />
+                  </a>
+                )}
               </h3>
               <p className="mt-2 text-gray-200 text-[0.8rem] sm:text-md">
                 {description}
