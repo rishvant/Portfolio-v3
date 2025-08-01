@@ -11,6 +11,8 @@ import { ExperienceSection } from "./components/sections/ExperienceSection";
 import { EducationSection } from "./components/sections/EducationSection";
 import { ProjectsSection } from "./components/sections/ProjectsSection";
 import { ContactSection } from "./components/sections/ContactSection";
+import { GitHubSection } from "./components/sections/GitHubSection";
+import OpenSourceSection from "./components/sections/OpenSourceSection";
 import { motion } from "framer-motion";
 
 function App() {
@@ -67,6 +69,8 @@ function App() {
           <ExperienceSection />
           <EducationSection />
           <ProjectsSection />
+          <GitHubSection />
+          <OpenSourceSection />
           <ContactSection />
           <Footer />
         </>
